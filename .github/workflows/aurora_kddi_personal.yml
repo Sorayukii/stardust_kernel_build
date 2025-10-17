@@ -57,7 +57,7 @@ jobs:
     - name: Set up KernelSU-Next
       run: |
         cd $KERNEL_DIR
-        curl -LSs "$KERNELSU_NEXT_SETUP" | bash -s susfs-main
+        curl -LSs "$KERNELSU_NEXT_SETUP" | bash -s susfs-1510
 
     - name: Generate defconfig
       run: |
